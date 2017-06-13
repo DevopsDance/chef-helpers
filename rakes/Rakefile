@@ -1,0 +1,8 @@
+Rake.add_rakelib 'lib'
+
+requirements = [
+    :kitchen_suits
+]
+
+task default: requirements do
+end
